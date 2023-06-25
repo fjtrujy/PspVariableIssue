@@ -6,7 +6,7 @@
 PSP_MODULE_INFO("PSP VARIABLE ISSUE", 0, 1, 0);
 PSP_MAIN_THREAD_ATTR(THREAD_ATTR_USER);
 
-// If these two lines are here, the code doesn't works fine
+// If these two lines are here, the code doesn't work fine
 // If you move these lines into main(), the code works fine
 auto str = std::string("Hello1");
 std::string str2 = "Hello2";
